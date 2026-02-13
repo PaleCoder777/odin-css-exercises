@@ -2,6 +2,12 @@
 you'll learn about it later. */
 @import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
 
+/* * {
+  border-style: solid;
+  border-width: 1px;
+  
+} */
+
 body {
   margin: 0;
   background: #eee;
@@ -22,7 +28,7 @@ body {
   flex-grow: 1;
   justify-content: flex-start;
   align-items: center;
-  gap: 0px;
+  gap: 16px;
 }
 
 .right-items {
@@ -64,6 +70,8 @@ a {
 
 ul {
   display: flex;
+  padding: 0px;
+  margin: 0px;
   gap: 16px;
   list-style-type: none;
 }
