@@ -16,6 +16,17 @@ img {
 
 .main-container {
   display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.container-1, .container-2, .container-3, .container-4 {
+  flex-basis: 200px;
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
 }
 
 /* do not edit this footer */
