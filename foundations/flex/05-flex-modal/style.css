@@ -27,7 +27,7 @@ body {
   font-size: 26px;
   font-weight: 700;
   background: lavender;
-  width: 42px;
+  width: 46px;
   height: 42px;
   border-radius: 50%;
   display: flex;
@@ -66,4 +66,35 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+/* MY SOLUTION */
+
+/* * {
+  border-style:solid;
+  border-width: 1px;
+  border-color: black;
+} */
+
+.modal {
+  display: flex;
+  gap: 25px;
+  padding: 25px;
+}
+
+.icon {
+  flex-shrink: 0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  }
+
+.text {
+  margin-bottom: 16px;
 }
