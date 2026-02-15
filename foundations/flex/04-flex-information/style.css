@@ -9,8 +9,13 @@ img {
 
 .title {
   text-align: center;
+  margin-bottom: 32px;
   font-size: 36px;
   font-weight: 900;
+}
+
+.main-container {
+  display: flex;
 }
 
 /* do not edit this footer */
