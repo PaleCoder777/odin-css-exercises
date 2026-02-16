@@ -60,6 +60,10 @@ a {
   padding: 20px;
 }
 
+.footer {
+  background-color: #eeeeee;
+}
+
 .header .left-links, .right-links {
   display: flex;
   gap: 20px
@@ -68,4 +72,10 @@ a {
 .footer .left-links, .right-links {
   display: flex;
   gap: 20px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
