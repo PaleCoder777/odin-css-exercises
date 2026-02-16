@@ -30,9 +30,16 @@ input {
   border-style: solid;
   border-width: 1px;
   border-color: red;
+}
 
 /*.left-links, .input, .buttons, .right-links {
   border-style: solid;
   border-width: 1px;
   border-color: black;
 } */
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
