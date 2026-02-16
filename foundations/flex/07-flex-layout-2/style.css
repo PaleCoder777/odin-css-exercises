@@ -36,6 +36,12 @@ body {
   justify-content: space-between;
 }
 
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
 a {
   font-size: 24px;
   color: white;
@@ -62,5 +68,7 @@ a {
 }
 
 .sidebar {
-  min-width: 300px;
+  min-width: 300px; /* OR */
+  flex-shrink: 0;
+  padding: 16px;
 }
