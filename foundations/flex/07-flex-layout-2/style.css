@@ -36,6 +36,12 @@ body {
   justify-content: space-between;
 }
 
+a {
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
+}
+
 .header {
   font-size: 32px;
   font-weight: 900;
