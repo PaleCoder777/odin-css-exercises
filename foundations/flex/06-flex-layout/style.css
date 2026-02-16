@@ -46,8 +46,26 @@ body {
 
 ul {
   list-style-type: none;
+  margin: 0px;
+  padding: 0px;
 }
 
 a {
   text-decoration: none;
+}
+
+.header, .footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.header .left-links, .right-links {
+  display: flex;
+  gap: 20px
+}
+
+.footer .left-links, .right-links {
+  display: flex;
+  gap: 20px;
 }
