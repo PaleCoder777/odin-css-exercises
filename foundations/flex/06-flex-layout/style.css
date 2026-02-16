@@ -54,6 +54,10 @@ a {
   text-decoration: none;
 }
 
+button {
+  padding: 5px;
+}
+
 .header, .footer {
   display: flex;
   justify-content: space-between;
