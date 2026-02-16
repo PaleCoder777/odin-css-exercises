@@ -72,3 +72,16 @@ a {
   flex-shrink: 0;
   padding: 16px;
 }
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 300px;
+  height: 140px;
+  padding: 48px;
+}
