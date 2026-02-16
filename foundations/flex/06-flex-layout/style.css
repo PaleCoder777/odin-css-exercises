@@ -26,17 +26,21 @@ input {
 }
 
 /* MY SOLUTION */
+/*
 .header, .content, .footer {
   border-style: solid;
   border-width: 1px;
   border-color: red;
 }
+*/
 
-/*.left-links, .input, .buttons, .right-links {
+/*
+.left-links, .input, .buttons, .right-links {
   border-style: solid;
   border-width: 1px;
   border-color: black;
-} */
+}
+*/
 
 body {
   display: flex;
@@ -82,4 +86,5 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 16px;
 }
