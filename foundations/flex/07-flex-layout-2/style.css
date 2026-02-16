@@ -54,3 +54,7 @@ body {
   display: flex;
   flex: 1;
 }
+
+.sidebar {
+  min-width: 300px;
+}
