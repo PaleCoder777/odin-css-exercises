@@ -24,3 +24,15 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+/* MY SOLUTION */
+.header, .content, .footer {
+  border-style: solid;
+  border-width: 1px;
+  border-color: red;
+
+/*.left-links, .input, .buttons, .right-links {
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+} */
