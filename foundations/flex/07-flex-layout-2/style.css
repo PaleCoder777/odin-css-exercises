@@ -35,3 +35,8 @@ body {
   flex-direction: column;
   justify-content: space-between;
 }
+
+.header {
+  font-size: 32px;
+  font-weight: 900;
+}
